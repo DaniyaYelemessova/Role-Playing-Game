@@ -20,7 +20,7 @@ module.exports = {
     new ESLintPlugin(),
     new CleanWebpackPlugin(), // new line
     new HtmlWebpackPlugin({
-      title: 'project name',
+      title: 'role-playing-game',
       template: './src/index.html',
       inject: 'body'
     })
